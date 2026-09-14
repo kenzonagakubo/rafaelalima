@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Rafaela — Personal Trainer | Link da Bio & Consultoria</title>
+
+  <!-- Meta tags SEO & Social Sharing -->
+  <meta name="description"
+    content="Personal Trainer Rafaela (CREF 215702-G/SP). Resultados reais com treinos personalizados para o seu corpo, rotina e objetivos. Emagrecimento, reabilitação e qualidade de vida." />
+  <meta name="theme-color" content="#090a0f" />
+  <meta property="og:title" content="Rafaela — Personal Trainer" />
+  <meta property="og:description"
+    content="Resultados reais com treinos personalizados para o seu corpo, sua rotina e seus objetivos. Fale comigo no WhatsApp!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=800&q=80" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Ambient background glow effects -->
+  <div class="bg-glow bg-glow-top"></div>
+  <div class="bg-glow bg-glow-middle"></div>
+  <div class="bg-glow bg-glow-bottom"></div>
+  <div class="grid-pattern"></div>
+
+  <!-- Main Bio Container (Mobile First, Max 480px centered) -->
+  <main class="bio-wrapper">
+
+    <!-- Top Action Bar -->
+    <header class="top-nav">
+      <div class="status-pill">
+        <span class="pulse-dot"></span>
+        <span>Vagas Abertas para Consultoria</span>
+      </div>
+      <button class="share-btn" id="shareBtn" aria-label="Compartilhar Link" title="Compartilhar">
+        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+      </button>
+    </header>
+
+    <!-- Hero / Profile Section -->
+    <section class="hero-section">
+      <div class="avatar-container">
+        <div class="avatar-glow-ring"></div>
+        <div class="avatar-wrapper">
+          <!-- High quality trainer profile photo -->
+          <img src="fotoinicial.webp" alt="Rafaela Personal Trainer" class="avatar-img" loading="eager"
+            id="profileAvatar" />
+          <div class="avatar-badge-check" title="Profissional Verificada">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>CREF Ativo</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-info">
+        <h1 class="hero-title">
+          Rafaela <span class="highlight-pink">Lima</span>
+          <span class="role-tag">Personal Trainer</span>
+        </h1>
+
+        <!-- CREF / Academic Badge -->
+        <div class="cref-badge">
+          <i class="fa-solid fa-certificate"></i>
+          <span>CREF 215702-G/SP</span>
+          <span class="bullet">•</span>
+          <span>Formada em 2023 (Anhanguera)</span>
+        </div>
+
+        <!-- Mission Statement -->
+        <p class="mission-text">
+          <i class="fa-solid fa-quote-left quote-icon"></i>
+          Resultados reais com treinos personalizados para o seu corpo, sua rotina e seus objetivos.
+        </p>
+
+        <!-- Quick Proof Metrics -->
+        <div class="stats-row">
+          <div class="stat-item">
+            <span class="stat-number">+300</span>
+            <span class="stat-label">Alunas(os)</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Personalizado</span>
+          </div>
+        </div>
+
+        <!-- Primary WhatsApp CTA Button -->
+        <a href="https://wa.me/5519999331012?text=Ol%C3%A1%20Rafaela!%20Vi%20seu%20link%20da%20bio%20e%20gostaria%20de%20saber%20mais%20sobre%20sua%20consultoria%20e%20treinos%20personalizados."
+          target="_blank" rel="noopener noreferrer" class="cta-btn primary-cta pulse-glow" id="heroCtaBtn">
+          <div class="cta-icon-box">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div class="cta-content">
+            <span class="cta-title">Falar com a Rafaela no WhatsApp</span>
+            <span class="cta-subtitle">Atendimento rápido e direto</span>
+          </div>
+          <i class="fa-solid fa-chevron-right arrow-icon"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Me Section (Sobre Mim) -->
+    <section class="about-section" id="sobre-mim">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-user-check"></i> Apresentação</span>
+        <h2 class="section-title">Sobre <span class="highlight-pink">Mim</span></h2>
+      </div>
+
+      <div class="about-card">
+        <!-- Header Info -->
+        <div class="about-header-row">
+          <div class="about-avatar-mini">
+            <img src="fotoinicial.webp" alt="Rafaela Personal Trainer" />
+            <div class="about-avatar-pulse"></div>
+          </div>
+          <div class="about-header-text">
+            <h3 class="about-name">Olá! Prazer, sou <span class="highlight-pink">Rafaela</span> 👋</h3>
+            <p class="about-lead">
+              Personal Trainer formada em <strong>2023 pela Faculdade Anhanguera de Leme</strong> e registrada no
+              <strong class="cref-text">CREF 215702-G/SP</strong>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Mission Card -->
+        <div class="about-mission-box">
+          <div class="mission-icon-wrap">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <div class="mission-text-content">
+            <span class="mission-label">Minha Missão</span>
+            <p class="mission-desc">
+              Ajudar você a alcançar <strong>resultados reais</strong>, com treinos personalizados de acordo com o seu
+              corpo, sua rotina e seus objetivos. 💪
+            </p>
+          </div>
+        </div>
+
+        <!-- Philosophy / Methodology text -->
+        <div class="about-philosophy-card">
+          <div class="philosophy-icon">
+            <i class="fa-solid fa-heart-pulse"></i>
+          </div>
+          <p class="about-philosophy">
+            Atendo diferentes perfis e necessidades, desde iniciantes até alunos avançados, sempre respeitando os
+            limites e a individualidade de cada pessoa.
+          </p>
+        </div>
+
+        <!-- Goals / Target profiles -->
+        <div class="about-goals-wrapper">
+          <h4 class="about-goals-title">
+            <i class="fa-solid fa-sparkles highlight-pink"></i> Meus objetivos de atendimento incluem:
+          </h4>
+
+          <div class="about-goals-grid">
+            <div class="goal-chip">
+              <div class="goal-icon-box"><span class="goal-emoji">🏋️‍♀️</span></div>
+              <span class="goal-label">Emagrecimento</span>
+            </div>
+            <div class="goal-chip">
+              <div class="goal-icon-box"><span class="goal-emoji">💪</span></div>
+              <span class="goal-label">Ganho de massa muscular</span>
+            </div>
+            <div class="goal-chip">
+              <div class="goal-icon-box"><span class="goal-emoji">❤️</span></div>
+              <span class="goal-label">Qualidade de vida</span>
+            </div>
+            <div class="goal-chip goal-chip-full">
+              <div class="goal-icon-box"><span class="goal-emoji">🩺</span></div>
+              <div class="goal-label-col">
+                <span class="goal-label">Exercícios para pessoas com problemas de saúde</span>
+                <span class="goal-sublabel">Com orientação adequada</span>
+              </div>
+            </div>
+            <div class="goal-chip">
+              <div class="goal-icon-box"><span class="goal-emoji">🩹</span></div>
+              <span class="goal-label">Reabilitação e retorno aos exercícios</span>
+            </div>
+            <div class="goal-chip">
+              <div class="goal-icon-box"><span class="goal-emoji">👵</span></div>
+              <span class="goal-label">Treinos para idosos</span>
+            </div>
+            <div class="goal-chip">
+              <div class="goal-icon-box"><span class="goal-emoji">🔰</span></div>
+              <span class="goal-label">Treinos para iniciantes e avançados</span>
+            </div>
+            <div class="goal-chip">
+              <div class="goal-icon-box"><span class="goal-emoji">👨‍👩‍👧‍👦</span></div>
+              <span class="goal-label">Exercícios para diferentes faixas etárias</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Closing Quote & CTA text -->
+        <div class="about-footer-callout">
+          <p class="about-motto">
+            <i class="fa-solid fa-quote-left quote-mini"></i>
+            Não importa se você está começando agora ou já treina há anos: <strong>existe um treino adequado para
+              você</strong>.
+          </p>
+          <div class="about-action-bar">
+            <span class="about-invite">✨ Vamos juntos transformar seus objetivos em resultados!</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Goals Section (Como posso te ajudar) -->
+    <section class="services-section">
+      <div class="section-header">
+        <span class="section-tag">Objetivos & Foco</span>
+        <h2 class="section-title">Como posso te <span class="highlight-pink">ajudar?</span></h2>
+        <p class="section-desc">Selecione o seu objetivo abaixo para montar um planejamento ideal para você:</p>
+      </div>
+
+      <div class="services-list">
+
+        <!-- Card: Personal Trainer Presencial -->
+        <div class="service-card" data-service="Personal Trainer Presencial">
+          <div class="card-icon-wrapper pink-gradient-bg">
+            <i class="fa-solid fa-person-running service-icon"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title-row">
+              <h3 class="card-title">Personal Trainer (Presencial)</h3>
+              <span class="card-badge">Presencial 1 a 1</span>
+            </div>
+            <p class="card-desc">Acompanhamento presencial individualizado durante seus treinos, garantindo execução
+              correta, postura, segurança e intensidade sob medida.</p>
+            <div class="card-action">
+              <span class="action-link">Quero Personal Presencial <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card: Treinamento & Consultoria Online -->
+        <div class="service-card" data-service="Treinamento e Consultoria Online">
+          <div class="card-icon-wrapper pink-gradient-bg">
+            <i class="fa-solid fa-mobile-screen-button service-icon"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title-row">
+              <h3 class="card-title">Treinamento & Consultoria Online</h3>
+              <span class="card-badge-soft">100% no App</span>
+            </div>
+            <p class="card-desc">Treine onde e quando quiser com ficha personalizada no aplicativo, vídeos dos
+              movimentos, suporte contínuo no WhatsApp e ajustes periódicos.</p>
+            <div class="card-action">
+              <span class="action-link">Quero Consultoria Online <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 1: Emagrecimento & Ganho de Massa -->
+        <div class="service-card" data-service="Emagrecimento e Ganho de Massa">
+          <div class="card-icon-wrapper pink-subtle-bg">
+            <i class="fa-solid fa-dumbbell service-icon"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title-row">
+              <h3 class="card-title">Emagrecimento & Ganho de Massa</h3>
+              <span class="card-badge">Mais Procurado</span>
+            </div>
+            <p class="card-desc">Foco na sua evolução estética, definição muscular e aumento de performance com
+              estratégia sob medida.</p>
+            <div class="card-action">
+              <span class="action-link">Quero este foco <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Qualidade de Vida & Saúde -->
+        <div class="service-card" data-service="Qualidade de Vida e Saúde">
+          <div class="card-icon-wrapper pink-subtle-bg">
+            <i class="fa-solid fa-heart-pulse service-icon"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title-row">
+              <h3 class="card-title">Qualidade de Vida & Saúde</h3>
+            </div>
+            <p class="card-desc">Treinos dinâmicos que trazem mais energia, diminuem o estresse e proporcionam
+              vitalidade no dia a dia.</p>
+            <div class="card-action">
+              <span class="action-link">Quero este foco <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Saúde & Reabilitação -->
+        <div class="service-card" data-service="Saúde e Reabilitação">
+          <div class="card-icon-wrapper pink-subtle-bg">
+            <i class="fa-solid fa-notes-medical service-icon"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title-row">
+              <h3 class="card-title">Saúde & Reabilitação</h3>
+              <span class="card-badge-soft">Especializado</span>
+            </div>
+            <p class="card-desc">Exercícios adaptados para alívio de dores articulares/coluna, correção postural e
+              retorno seguro às atividades.</p>
+            <div class="card-action">
+              <span class="action-link">Quero este foco <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Melhor Idade & Diferentes Idades -->
+        <div class="service-card" data-service="Melhor Idade e Treinos Funcionais">
+          <div class="card-icon-wrapper pink-subtle-bg">
+            <i class="fa-solid fa-person-walking service-icon"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title-row">
+              <h3 class="card-title">Melhor Idade & Diferentes Idades</h3>
+            </div>
+            <p class="card-desc">Treinos seguros, funcionais e preventivos focados em mobilidade, equilíbrio e autonomia
+              em todas as fases da vida.</p>
+            <div class="card-action">
+              <span class="action-link">Quero este foco <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Do Iniciante ao Avançado -->
+        <div class="service-card" data-service="Iniciante ao Avançado">
+          <div class="card-icon-wrapper pink-subtle-bg">
+            <i class="fa-solid fa-arrow-trend-up service-icon"></i>
+          </div>
+          <div class="card-info">
+            <div class="card-title-row">
+              <h3 class="card-title">Do Iniciante ao Avançado</h3>
+            </div>
+            <p class="card-desc">Do absoluto zero à alta performance, com metodologia progressiva que respeita seu ritmo
+              e individualidade biológica.</p>
+            <div class="card-action">
+              <span class="action-link">Quero este foco <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Journey Section (Sua Jornada + Mídia Secundária) -->
+    <section class="journey-section">
+      <div class="journey-card">
+        <div class="journey-media">
+          <img src="fotofinal.webp" alt="Ambiente de Treino e Acompanhamento" class="journey-img" loading="lazy" />
+          <div class="journey-overlay"></div>
+
+          <div class="floating-tag left-tag">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <span>Treino Presencial & Online</span>
+          </div>
+          <div class="floating-tag right-tag">
+            <i class="fa-solid fa-dumbbell"></i>
+            <span>App Exclusivo</span>
+          </div>
+        </div>
+
+        <div class="journey-body">
+          <span class="section-tag">Metodologia Personalizada</span>
+          <h2 class="journey-title">A sua evolução começa no treino certo para a sua rotina</h2>
+
+          <blockquote class="journey-quote">
+            "Não importa se você está começando agora ou se já treina há anos: existe um treino ideal para a sua
+            realidade."
+          </blockquote>
+
+          <div class="benefits-grid">
+            <div class="benefit-item">
+              <div class="benefit-icon"><i class="fa-solid fa-check"></i></div>
+              <span>Avaliação física e postural detalhada</span>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon"><i class="fa-solid fa-check"></i></div>
+              <span>Planilha individualizada no celular com vídeos dos exercícios</span>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon"><i class="fa-solid fa-check"></i></div>
+              <span>Ajustes periódicos para você nunca estagnar</span>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-icon"><i class="fa-solid fa-check"></i></div>
+              <span>Suporte direto comigo via WhatsApp</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works 3 Steps -->
+    <section class="steps-section">
+      <div class="section-header">
+        <span class="section-tag">Passo a Passo</span>
+        <h2 class="section-title">Como funciona o <span class="highlight-pink">acompanhamento?</span></h2>
+      </div>
+
+      <div class="steps-timeline">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h4 class="step-title">Conversa & Alinhamento</h4>
+            <p class="step-desc">Você me conta seus objetivos, histórico de treinos, dores e a rotina de horários
+              disponíveis.</p>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h4 class="step-title">Montagem do Seu Treino</h4>
+            <p class="step-desc">Elaboro seu plano de treino personalizado, com periodização inteligente e foco no que
+              você precisa.</p>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h4 class="step-title">Execução & Resultados</h4>
+            <p class="step-desc">Você treina com segurança, tem acompanhamento contínuo e vê sua transformação semana a
+              semana.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer & Final CTA -->
+    <footer class="footer-section">
+      <div class="final-cta-card">
+        <div class="glow-box"></div>
+        <span class="final-badge">Pronta para começar?</span>
+        <h2 class="final-title">Vamos juntos transformar seus objetivos em resultados?</h2>
+        <p class="final-subtitle">Dê o primeiro passo hoje. Agende uma conversa sem compromisso.</p>
+
+        <a href="https://wa.me/5519999331012?text=Ol%C3%A1%20Rafaela!%20Quero%20agendar%20minha%20consultoria%20/%20aula%20experimental%20e%20saber%20os%20planos."
+          target="_blank" rel="noopener noreferrer" class="cta-btn final-btn pulse-glow" id="finalCtaBtn">
+          <i class="fa-solid fa-rocket rocket-icon"></i>
+          <span>Agendar Consultoria / Aula Experimental</span>
+        </a>
+      </div>
+
+      <!-- Social Links -->
+      <div class="social-links-row">
+        <a href="https://www.instagram.com/personalrafaelalima" target="_blank" rel="noopener noreferrer"
+          class="social-link instagram-link" id="instaLink" title="Instagram da Rafaela">
+          <i class="fa-brands fa-instagram"></i>
+          <span>@personalrafaelalima</span>
+        </a>
+
+        <a href="https://wa.me/5519999331012" target="_blank" rel="noopener noreferrer"
+          class="social-link whatsapp-link" id="whatsLink" title="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>WhatsApp Direto</span>
+        </a>
+      </div>
+
+      <div class="copyright-info">
+        <p>© 2024 Rafaela Lima — Personal Trainer • CREF 215702-G/SP</p>
+        <p class="creator-tag">Desenvolvido com foco em alta performance e conversão</p>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Floating Quick WhatsApp Button -->
+  <a href="https://wa.me/5519999331012?text=Ol%C3%A1%20Rafaela!%20Estou%20no%20seu%20site%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20treinos."
+    target="_blank" rel="noopener noreferrer" class="floating-whatsapp" id="floatingWhatsapp" title="Falar no WhatsApp">
+    <div class="floating-badge-ping"></div>
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="floating-tooltip">Fale comigo!</span>
+  </a>
+
+  <!-- Share Modal Notification Toast -->
+  <div class="toast-alert" id="toastAlert">
+    <i class="fa-solid fa-check-circle"></i>
+    <span id="toastMessage">Link copiado com sucesso!</span>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
